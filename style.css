@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+/*------------ 
+ header style 
+-------------*/
+/* nav start */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    padding-top: 60px;
+}
+.title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 52px;
+}
+.nav-item{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.nav-item a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* nav end */
+/* brand new start */
+.brand-new{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    gap: 40px;
+    margin-top: 100px;
+}
+.brand-new h1{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 75px;
+}
+.brand-new p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+/* header button design */
+.header-button{
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* banner image */
+header img{
+    padding: 50px 0;
+}
+/* main content section-01 start */
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feau-images{
+    display: grid;
+    grid-template-columns: 342px 342px;
+    gap: 20px;
+}
+.feautures-section{
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+.feau1{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 52.79px;
+}
+.feau2{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 52.79px;
+    color: #FF900E;
+}
+.feau1 span{
+    color: #727272;
+}
+.feau-details p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 35px;
+}
+/* feau-button design */
+.feau-button{
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.46px;
+    margin-top: 35px;
+}
+.feau-button a{
+    text-decoration: none;
+    color: white;
+
+}
