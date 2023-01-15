@@ -343,3 +343,162 @@ footer{
     padding: 35px;
     color: #424242;
 }
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                              web_ go to  mobile responsive 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+@media only screen and (max-width:688px) {
+    /* header item responsive start */
+    header img{
+        width: 500px;
+        height: 100%;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .title h1{
+        font-size: 30px;    
+    }
+    .nav-item{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .brand-new{
+        margin-top: 30px;
+        gap: 20px;
+        width: 500px;
+    }
+    .brand-new h1{
+        font-size: 30px;
+        line-height: 30px;
+    } 
+    .brand-new p{
+        
+        
+    }
+    /*-------------------------------
+       header item responsive emd
+    --------------------------------  */
+    /*-------------------------------------------------------------------------------------
+                            feautures-section style start
+    ---------------------------------------------------------------------------------------- */
+    .feautures-section{
+        flex-direction: column;
+    }
+    .feau-images{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feau-images img{
+        width: 500px;
+    }
+    .feau-details{
+        width: 500px;
+    }
+    /*-------------------------------------------------------------------------------------
+                                   second secton responsive
+    ------------------------------------------------------------------------------------- */
+    .loveand-enjoy-continer{
+        flex-direction: column;
+        align-items: center;
+        width: 500px;
+    }
+    .injoy-item{
+        width: 500px;
+    }
+    
+    .loveand-enjoy-title h1{
+        font-size: 30px;
+    }
+    .loveand-enjoy-title{
+        width: 500px;    
+    }
+    .loveand-enjoy-title p{
+        width: 500px;
+    }
+    .loveand-enjoy-photos img{
+        width: 500px;
+    }
+    /*------------------ 
+       error div design
+    -------------------- */
+    .error-div{
+        width: 500px;
+    }
+    .somefacts p{
+        width: 500px;
+    }
+
+
+    /*-------------------------------------------------------
+                            sponspors 
+    --------------------------------------------------------- */
+    .last-section p{
+        width: 500px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .working-datas{
+        flex-direction: column;
+    }
+
+
+
+    .sponspors-banners{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .company-details{
+        flex-direction: column;
+        align-items: center;
+    }
+    /*---------------------------------------------------------- 
+                            contact details infornation mq 
+    -----------------------------------------------------------*/
+    .address{
+        width: 188px;
+        width: 275px;
+    }
+    .social{
+        margin-top: 50px;
+    }
+    .social img{
+        margin-right: 2px;
+    }
+    
+    /*------------------------------- 
+          footer information
+    --------------------------------- */
+    footer{
+        margin-top: 200px;
+        font-size: 7px;
+    }
+    footer p{
+        width: 500px;
+        font-size: 14px;
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
