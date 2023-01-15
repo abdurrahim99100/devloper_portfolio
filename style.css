@@ -296,6 +296,38 @@ second section end
 .spo-banner img{
     filter: grayscale(100%);
 }
+/*------------------------------------------
+ offic address and social media design 
+-------------------------------------------------*/
+.company-details{
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 200px;
+    margin-top: 80px;
+    padding: 20px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.address{
+    width: 300px;
+}
+.address p{
+    line-height: 26px;
+    padding-top: 10px;
+}
+.social img{
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+}
+.address h4{
+    font-size: 25px;
+}
+.social h4{
+    font-size: 25px;
+}
 /* footfer style */
 footer{
     display: flex;
