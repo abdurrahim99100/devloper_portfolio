@@ -373,13 +373,9 @@ footer{
     .brand-new h1{
         font-size: 30px;
         line-height: 30px;
-    } 
-    .brand-new p{
-        
-        
     }
     /*-------------------------------
-       header item responsive emd
+       header item responsive end
     --------------------------------  */
     /*-------------------------------------------------------------------------------------
                             feautures-section style start
@@ -406,8 +402,7 @@ footer{
     }
     .injoy-item{
         width: 500px;
-    }
-    
+    }    
     .loveand-enjoy-title h1{
         font-size: 30px;
     }
@@ -429,35 +424,19 @@ footer{
     .somefacts p{
         width: 500px;
     }
-
-
     /*-------------------------------------------------------
                             sponspors 
     --------------------------------------------------------- */
     .last-section p{
         width: 500px;
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    }    
     .working-datas{
         flex-direction: column;
     }
-
-
-
     .sponspors-banners{
         flex-direction: column;
         align-items: center;
     }
-
     .company-details{
         flex-direction: column;
         align-items: center;
